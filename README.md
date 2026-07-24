@@ -32,7 +32,11 @@ The notebook benchmarks and compares the following architectures:
 ---
 
 ## Results & Comparison
-*The transfer learning models (MobileNetV2 and EfficientNetB0) significantly outperformed custom CNN baselines in convergence speed and overall validation accuracy, demonstrating robust generalization across distinct plant disease categories.*
+*(1) Global Average Pooling is superior to flattening for image classification tasks, significantly reducing overfitting; 
+(2) inverse-frequency
+class weights effectively handle severe class imbalance (21:1 ratio) without requiring data
+resampling; 
+(3) the marginal performance gain of EfficientNetB0 (0.03%) over the Improved CNN may not justify its 100× larger model size for edge-device deployment.*
 
 ---
 
