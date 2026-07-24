@@ -47,10 +47,4 @@ resampling;
 *   **Metrics:** Scikit-learn (`classification_report`)[cite: 1]
 *   **Environment:** Google Colab / Kaggle Notebooks[cite: 1]
 
----
 
-## Getting Started
-
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/your-username/plant-disease-detection.git](https://github.com/your-username/plant-disease-detection.git)
